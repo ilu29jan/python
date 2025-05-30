@@ -1,0 +1,189 @@
+			=========================================================
+						2. float
+			=========================================================
+=>"float" is one of the Pre-Defined Class Name 
+=>The purpose of float data type is that "To Store Real Constant Values OR Floating Point Values" such as percentage, 
+     Interest rate given by bank to the customer, percentile...etc
+=>All Types of int values are automatically Considered as float values But all types of float values can't be condidered 
+    automatically  is int value.
+=>we can also use float data type store Scientific Notation Values(Mantisa e  Exponent) and whose eqv floating point value is   Mantisa x 10 to the power Exponent
+=>The advantage of Scientific Notation is that To store Big Floating Point Values can be stored in Less Memory space.
+=>float data type never allows the programmer to store Binary , Octal and Hexa Decimal Values.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=2.3
+>>> print(a,type(a))-----------------------------2.3 <class 'float'>
+>>> a=2.3
+>>> b=4.5
+>>> c=a+b
+>>> print(a,type(a))----------------------------2.3 <class 'float'>
+>>> print(b,type(b))----------------------------4.5 <class 'float'>
+>>> print(c,type(c))-----------------------------6.8 <class 'float'>
+>>> a=10
+>>> b=1.2
+>>> c=a+b
+>>> print(a,type(a))----------------------------10 <class 'int'>
+>>> print(b,type(b))----------------------------1.2 <class 'float'>
+>>> print(c,type(c))----------------------------11.2 <class 'float'>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=3e2
+>>> print(a,type(a))----------300.0 <class 'float'>
+>>>
+>>> b=4e-2
+>>> print(b,type(b))----------0.04 <class 'float'>
+>>> c=0.000000000000000000000000000000000000000000000000005
+>>> print(c,type(c))-----------5e-51 <class 'float'>
+>>> a=0.00000100000007
+>>> print(a,type(a))-------1.00000007e-06 <class 'float'>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=0b1111.0b1010------------SyntaxError: invalid decimal literal
+>>> a=0o12.0o34------------------SyntaxError: invalid decimal literal
+>>> a=0xbee.0x34----------------SyntaxError: invalid decimal literal
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+			==========================================================
+						3. bool
+			==========================================================
+=>"bool" is one of the Pre-Defined Class Name.
+=>The purpose of bool data type is that "To Store Logical OR Boolean values such as True and False".
+=>Here True and False are the Key words used as values for bool data type.
+=>Internally, The True is Considered as 1 and False is Considered as 0
+=>On Boolean Values we can Perform Arithmetic Operations.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=True
+>>> print(a,type(a))-------------------True <class 'bool'>
+>>> a=False
+>>> print(a,type(a))------------------False <class 'bool'>
+>>> a=false--------------------NameError: name 'false' is not defined. 
+>>> a=true--------------------NameError: name 'true' is not defined.
+-----------------------------------------------------
+>>> a=True
+>>> b=False
+>>> c=a+b
+>>> print(c,type(c))--------------1 <class 'int'>
+>>> print(False+False)----------0
+>>> print(True-True)-------------0
+>>> print(True-False)------------1
+>>> print(True+2+False)--------3
+>>> print(True+2*3)--------------7
+>>> print(True-2+False)---------1
+>>> print(0b1111+True)----------16
+>>> print(0xF-True)----------------14
+>>> print(False/True)---------------0.0
+>>> print(False//True)--------------0
+>>> print(False/False)ZeroDivisionError: division by zero
+>>> print(True/False)----ZeroDivisionError: division by zero
+>>> print(2*True+True-False)----------3
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				============================================================
+							4. complex
+				============================================================
+=>"complex" is one of the pre-defined class 
+=>The purpose of complex data type is that "To store Complex Values OR Imaginary Values".
+=>The general Notation of Complex Number OR Value is shown Bellow.
+				a+bj   OR  a-bj
+		=>Here 'a' is called Real Part
+		=>here 'b' is called Imaginary Part
+		=>Here letter 'j' Represents  sqrt(-1)  OR sqr(j) = -1
+=>Internally, The Value of Real Part  and Imiginary are Taken float data type.
+=>In order to get Real Part and Imaginary parts from complex object, we have 2 Types of Pre-Defined Attributes in complex. They are
+				a) real 
+				b) imag
+		Syntax:     complexobj.real ====>Gives Real Part of Complex Object
+				  complexobj.imag====>Gives Imaginary Part of Complex Object
+=>On Complex Values, we can perform Arithmetic Operations such as Addition, Substraction, multiplication...etc	
+=>An object of complex belongs to IMMUTABLE bcoz It never allows us to modify Its Content at SAME MEMORY Address(Value Modified and whose value at Different Memory Address )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))---------------------------------(2+3j) <class 'complex'>
+>>> b=3-4j
+>>> print(b,type(b))---------------------------------(3-4j) <class 'complex'>
+>>> c=-3+4j
+>>> print(c,type(c))----------------------------------(-3+4j) <class 'complex'>
+-----------------------
+>>> a=2.3+4.5j
+>>> print(a,type(a))--------------------------------(2.3+4.5j) <class 'complex'>
+>>> b=-2.3-4.5j
+>>> print(b,type(b))--------------------------------(-2.3-4.5j) <class 'complex'>
+>>> c=-4.5+5j
+>>> print(c,type(c))--------------------------------(-4.5+5j) <class 'complex'>
+>>> d=4+5.6j
+>>> print(d,type(d))--------------------------------(4+5.6j) <class 'complex'>
+--------------------------------------
+>>> a=2+3h---------------SyntaxError: invalid decimal literal
+>>> b=2+3i---------------SyntaxError: invalid decimal literal
+----------------------------------------
+>>> a=4j
+>>> print(a,type(a))---------------4j <class 'complex'>
+>>> a=0+4j
+>>> print(a,type(a))---------------4j <class 'complex'>
+>>> c=3.5j
+>>> print(c,type(c))---------------3.5j <class 'complex'>
+-----------------------
+>>> a=-3j
+>>> print(a,type(a))----------->  (-0-3j) <class 'complex'>
+>>> b=-3.5j
+>>> print(b,type(b))-----------> (-0-3.5j) <class 'complex'>
+--------------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))-------------------(2+3j) <class 'complex'>
+>>> print(a.real)-----------------------2.0
+>>> print(a.imag)---------------------3.0
+>>> b=2.3+4.5j
+>>> print(b,type(b))-----------------(2.3+4.5j) <class 'complex'>
+>>> print(b.real)----------------------2.3
+>>> print(b.imag)--------------------4.5
+-----------------------
+>>> c=-2.3+4j
+>>> print(c,type(c))----------------(-2.3+4j) <class 'complex'>
+>>> print(c.real)--------------------  -2.3
+>>> print(c.imag)------------------- 4.0
+>>> a=4j
+>>> print(a,type(a))-----------------  4j <class 'complex'>
+>>> print(a.real)---------------------  0.0
+>>> print(a.imag)---------------------- 4.0
+>>> b=-4.5j
+>>> print(b,type(b))--------------------(-0-4.5j) <class 'complex'>
+>>> print(b.real)------------------------> -0.0
+>>> print(b.imag)----------------------->  -4.5
+>>> print(b.imagaginary)-------------AttributeError: 'complex' object has no attribute 'imagaginary'
+-------------------------------------------------------------------
+>>> a=2+3j
+>>> b=3+4j
+>>> c=a+b
+>>> print(c,type(c))-------------(5+7j) <class 'complex'>
+>>> print(4+50j+6+70j)---------(10+120j)
+------------------------------------------------------------------------
+>>> a=2+3j
+>>> b=3+4j
+>>> print(a,type(a))----------(2+3j) <class 'complex'>
+>>> print(b,type(b))----------(3+4j) <class 'complex'>
+------------------
+>>> c=a*b
+>>> print(c,type(c))----------(-6+17j) <class 'complex'>
+>>> print(-4j*3j)---------------(12-0j)
+>>> print(2+0j+2.3+0j)------(4.3+0j)
+------------------------------------------------------------------------------------
+				

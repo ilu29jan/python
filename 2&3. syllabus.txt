@@ -1,0 +1,37 @@
+Python is very easy due to existing modules , less lines of code and more meaning
+1. Development of web applications
+2. Development of gaming applications
+3. Development of Artificial Intelligence Applications
+   a) Machine learning
+   b) Deep learning
+4. Development of Image processing Applications(opencv)
+5. Development of Audio & Video Applications
+6. Development of web scrapping or web harvesting  --- while we watch any video the corresponding advertisement we get
+7. Development of Business applications (ex - Amazon, uber, ICICI mobile app...)
+8. Development of scientific application (ex - NASA)
+9. Development of software projects
+10. Development of OS installers
+11. Development os GUI Applications
+12. Development of Data Analysis and Data Analytics 
+   - Analysis means studying the past and moving forward
+   - Analytics means studying the future and moving forward
+13. Development of automation in testing
+14. Development of complex mathematical applications
+15. Development of languages
+16. Development of CAD and CAM based Applications (automobiles apps)
+17. Development of computer vision 
+
+
+--------------------------------------
+how to get 2 to the power 6
+import math 
+print(math.pow(2,6)) ===> 64
+
+---------------------------------------
+
+how to get 10 to the power -2
+import math
+print(math.pow(10,-2))  ===> 0.01
+
+--------------------------------------
+

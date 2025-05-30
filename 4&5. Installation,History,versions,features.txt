@@ -1,0 +1,41 @@
+python contains 3 versions
+- python 1.x
+- python 2.x
+- python 3.x
+
+what is pep
+python enhancement proposal means what new things are added in the version. ex- pep 719, pep 693...
+
+python program is executed by PVM
+
+IDE's - pycharm, Anaconda jupyter note book, Anaconda spider, Atom, vs code, sublime text, google calb... etc
+python environments - idle, command prompt
+
+features of python programming
+- features are nothing but services or facilities provided by language developers in the languages and they are used by language programmers for developing 
+  real time applications.
+- 11 features
+  1. Simple
+  2. platform independent language
+  3. Dynamically typed
+  4. Interpreted
+  5. High level
+  6. Freeware and opensource
+  7. Robust ( means strong)
+  8. Extensible
+  9. Embedded
+ 10. Both functional and object oriented programming lang
+ 11. Supports third party API's or modules such as Numpy, pandas, matplotlib, scipy, scikit, seaborn, nltp... etc
+
+Rich set of modules are available which are also called as LIBRARIES.Library means pre defined code that we are using for our development
+
+import math
+print(math.factorial(4))   ---output -> 24 (4*3*2*1)
+print(math.sqrt(25))   -- opt -> 5  ( This library is used on normal math) ( now for -25 square root we need to use cmath library )
+
+import cmath
+print(cmath.sqrt(-25))  -- opt -> 5j
+
+import random
+print(random.randint(1000,10000)    --- output will be some random numbers between 1000 to 10000. Used for OTP's
+

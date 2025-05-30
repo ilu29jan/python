@@ -1,0 +1,9 @@
+Modules - Each topic will contain case study
+library --> python --> modules
+example - 
+
+import calendar as kvr
+print(kvr.month(2024,1))  --- here kvr is the alias as calendar, it will print january month
+print(kvr.calendar(2024)) -- it will print whole 2024 year calendar
+
+use hackerranker for practice

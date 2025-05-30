@@ -1,0 +1,40 @@
+                       BASE CONVERSION FUNCTIONS IN PYTHON
+
+- The process of converting one number system into another number system value is called base conversion.
+- In python programming we have 3 base conversion functions. They are 
+  * bin()
+  * oct()
+  * hex()
+
+1. bin()
+- syntax varname=bin(Decimal / Octal / HexaDecimal value)   
+This function is used converting any number system value into Binary.
+example-
+>>> bin(0o542)       --- conversion of Octal to binary
+'0b101100010'
+>>> bin(0xbd34)      --- conversion of hexa to binary
+'0b1011110100110100'
+>>> bin(23)          --- conversion of Decimal to binary
+'0b10111'
+
+2. oct()
+- syntax varname=oct(Decimal / Binary / HexaDecimal value)   
+This function is used converting any number system value into Octal.
+example-
+>>> oct(15)          --- conversion of Decimal to Octal
+'0o17'
+>>> oct(0b1011)      --- conversion of Binary to Octal
+'0o13'
+>>> oct(0x54ad)      --- conversion of Hexadecimal to Octal
+'0o52255'
+
+3. hex()
+- syntax varname=hex(Decimal / Binary / Octal value)   
+This function is used converting any number system value into hex.
+Example-
+>>> hex(56)          --- conversion of Decimal to hexa
+'0x38'
+>>> hex(0b1010)       --- conversion of Binary to hexa
+'0xa'
+>>> hex(0o437)       --- conversion of Octal to hexa
+'0x11f'

@@ -1,0 +1,18 @@
+A module id a collection of functions, data members and class names
+ex - math ---------->pow(), sin(), cos(), tan(), sinh(), cosh(), tanh(), factorial()
+here math is module and those are the functions
+
+Data members -- those are present inside match module like PI-3.14 (pie), E=2.71
+import math
+print(math.pi)  --out ->3.14
+print(math.e)   --out ->2.718
+
+Arrays means collection of homogenious values or similar values.
+If i have written int a[100] out of which 10 values are getting used and 90 are unused. 
+so to eliminate these 90 unused memory space we use garbage collector which is inbuilt solution of python. By this performance will be also good.
+So python says if you have allocated 100 values out of which 10 values are getting used so rest of the 90 locations automatically get eliminated. 
+this mechanism is called Garbage collector. ( release unused memory space )
+Garbage collector collects un-used memory space and improves the performance of python based applications.
+A garbage collector is one of the in-built python backgroud program, which is running along with regular python program and whose role is to collect 
+unused memory space and inproves the perforamance of python based application.
+Hence in python programming automatic memory management taken care by garbage collector

@@ -1,0 +1,55 @@
+If we want to just execute the program then we can use primary memory (RAM) which is temporary and if we want to store the data then we can use secondary 
+memory such as Oracle, mysql..
+
+There are 14 types of data types
+- int
+- float
+- bool
+- complex
+
+- str
+- bytes
+- bytearray
+- range
+
+- list
+- tuple
+
+- set
+- frozenset
+
+-dict
+
+-NoteType
+
+Data types allocates sufficient amount of memory space for storing inputs in main memory(RAM).
+
+- In C,C++ lang data types takes different memory spaces on different OS and hence these lang are called "platform dependent lang".
+  for example int takes 2 bytes on DOS and 4 bytes on unix, float takes 4 bytes DP on DOS and 8 bytes DB on unix...
+
+- In java lang data types takes same memory spaces on different OS  and hence this lang is called "platform independent lang"
+  for example int takes 2 bytes on DOS and 1 bytes on unix, float takes 4 bytes on DOS and 8 bytes on unix...
+- BUT All the data types (pre-defined data types) are not able to store large volume of data due to memory space restrictions 
+  ex- int a=99999999999999999999999999999999999 ------------- (invalid) it will throw error "integer number too large"  (PYTHON WILL RUN WITHOUT ERROR HERE)
+- data types are unable to store multiple values
+  ex- int k =10,"ilu",34.23,"kd"  -------- invalid due to multiple values
+- In java programming, we can define programmer-defined data types by using classes and object.
+- In java programming, objects stores multiple values but the java objects are size restricted.
+
+In python it resolves all above problems that are there in c,c++ and java
+python stores in data in the form of objects. I can define any large number of data , i can define multiple data in a single variable 
+for example k =10,"ilu",34.23,"kd" it will easily print this.
+
+what is a class and object
+suppose you want to build a house and we have money and land, now what is required plan/design, then will contanct architecture.
+then he gave a diagram of all dimensions of house for rooms and all.then will give that design to builder. he will take some months. Now all the things we 
+will keep it in a house which is called an Object. where i am storing the data is called object.And design is called class (specification of house). Another person like my plan they are also they will 
+build another house. Like this by using a single plan multiple house will get build. 
+Object is storing the data so it is having memory space and class doesn't have any memory space. 
+So which ever thing utilize memory space are known as objects and the things that dont utilize space are class
+In objects of python doen't have size restrictions
+
+
+
+
+ 

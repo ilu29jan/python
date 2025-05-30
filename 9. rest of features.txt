@@ -1,0 +1,109 @@
+Freeware and open source
+
+freeware - python sofware is getting downloaded freely from official source so it is called freeware.
+
+open source - If any source software allows you to customize then software are called open source.
+
+There are two types of programming languages. 
+- Low level programming languages - Understandable on OS level which is binary numbers
+- High level programming languages - then those binary will again give results with decimal number which is shown to end users is called high level
+
+10,15,20 those numbers are called as decimal numbers and it is converted to binary numbers like 1011010101 (only 0 &1) (OS understandable)
+
+a=0b1010   (binary number)
+b=0b1111   (binary number)
+c=a+b
+
+the above are binare numbers that i have assigned to a and b. Now i will print the value of a it will give me output with decimal number
+print(a)   ---- output is 25
+print(b)   ---- output is 10
+print(c)   ---- output is 25
+
+Now if want to write program for converting decimal to binary below is the example
+bin(10)
+'0b1010' ( high level to low level or decimal to hexa conversion )
+
+Low level to high level is done implicitly and high level to low level is done by using function bin()
+
+now for octal we write 0o (zero o "o for octal")
+a=0o16   --- 0 to 7 is allowed
+print(a)  --- 14 (output)
+so here also low level data is converted to high level data
+
+oct(14)   --- this is octal number
+'0o16'   -- output ( it got converted from high level to low level or decimal to octa conversion)
+
+a=0xAC   -- it is called hexa decimal format ("zero to 9" , "A to F")
+print(a)   -- 172  ( it also got low level data is converted to high level data )
+
+hex(172)
+'0xAC"   ---- output  ( high level to low level or decimal to hexa conversion)
+
+bin()   ----  binary values are 0 and 1 
+oct()   ----  octa values are 0 to 7
+hex()   ----  hexa values are "zero to 9" and "A to F"
+
+
+			=======================================
+				6. High Level Programming
+			=======================================
+=>In this context, we have two types of languages. They are
+
+			1. Low Level Programming Languages
+			2. High Level Programming Languages
+-----------------------------------------------------------------
+1. Low Level Programming Languages:
+-----------------------------------------------------------------
+=>In Low Programming Languages, data is always stored in the form low level values such as Binary data, Octal Data and Hexa Decimal data.
+ These Number Systems are not directly understandable end-users .
+
+Example :    a=0b1010101010----Binary Data
+		     b=0xBEE--------------Hexa Decimal Data
+		     c=0o23-----------------Octal Data
+-----------------------------------------------------------------
+2. High Level Programming Languages
+-----------------------------------------------------------------
+=>In these languages, Internally, Even the programmer specifies the data in the form of Low Level Format such Binary data, Octal Data and Hexa Decimal data,
+ automatically Python Programming Language Execution Environment Converts into High Level data, which is understandable by end-users .
+  Hence Python is one of the  High Level Programming Language.
+
+Examples:
+----------------
+>>> a=0b101010111110000
+>>> b=0b10101111000
+>>> print(a)-----------------------22000
+>>> print(b)----------------------1400
+>>> a=0xBEE
+>>> print(a)-----------------------3054
+>>> bin(22000)-----------------'0b101010111110000'
+>>> hex(3054)----------------'0xbee'
+
+Robust (strong)
+
+example - when on mobile password pattern if someone giving wrong pattern to unlock the phone it gives a message that invalid pattern try again.
+ Means developer writes a user friendly error message. which is understandable by enduser. 
+when you write the error message very properly that is understandable by the enduser that is known as robust.
+
+		=========================================================
+						7. Robust (Strong)
+			=========================================================
+=>Python Programming is One of the Robust Programming Language, bcoz PYTHON Programming Provided "Exception Handling "
+=============================================================================================
+
+
+Extensible-
+From different lang python modules or libraries can be called to use in that language to avoid lengthy code. That's why python is called extensible.
+
+Embedded - 
+It's the reverse, Python can call the other language code 
+
+
+Numpy is used for matrics addition,subtraction...etc and also linear algebra is used like 4x+5y=9 , 3x+5y=45 then find x and y values. For those thing numpy 
+will be used
+Numpy stands for numerical python and it's a third party module 
+
+Pandas - It is used for data analysis and data analytics purpose
+
+matplotlib - it is used to create graphs. X axis, Y axis.
+
+
